@@ -11,7 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @Date: {2022/05/18 && 4:10 PM}
  */
 
-@XmlRootElement(name = "users")
+@XmlRootElement(name = "user")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class User {
     //
