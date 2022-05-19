@@ -1,0 +1,15 @@
+/*
+ * COPYRIGHT (c) QQB 2022
+ * This software is the proprietary of QQB.
+ *
+ * @author <a href="mailto:azizbek@qqb.io">Azizbek, Husanov</a>
+ * @since 2022. 1. 1.
+ */
+
+package com.qqb.travelclub.store.jpo.repo;
+
+import com.qqb.travelclub.store.jpo.CommentJpo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostCommentsRepository extends JpaRepository<CommentJpo,Long> {
+}
